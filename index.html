@@ -1,100 +1,48 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #f5f6fa;
-}
-.container {
-    width: 80%;
-    margin: 40px auto;
-    background: #fff;
-    display: flex;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0px 3px 15px rgba(0,0,0,0.15);
-}
-.left {
-    width: 30%;
-    background: linear-gradient(to bottom, #0d00ff, #0d00ff);
-    color: white;
-    padding: 30px;
-    box-sizing: border-box;
-}
-
-.avatar {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: auto;
-    display: block;
-}
-
-.avatar img {
-    width: 100%;
-}
-
-.name {
-    text-align: center;
-    font-size: 20px;
-    font-weight: bold;
-    margin-top: 15px;
-}
-.job {
-    text-align: center;
-    margin-bottom: 25px;
-}
-.title {
-    font-weight: bold;
-    margin-top: 25px;
-    border-bottom: 1px solid rgba(255,255,255,0.2);
-    padding-bottom: 5px;
-}
-.left p {
-    line-height: 1.5;
-    font-size: 14px;
-}
-.skill-bar {
-    background: rgba(255,255,255,0.2);
-    height: 6px;
-    border-radius: 5px;
-    margin: 5px 0 15px;
-}
-.fill {
-    background: #ffffff;
-    height: 100%;
-    border-radius: 5px;
-    width: 70%;
-}
-.right {
-    width: 70%;
-    padding: 30px 40px;
-    box-sizing: border-box;
-    color: #333;
-}
-.section-title {
-    font-weight: bold;
-    font-size: 18px;
-    margin: 20px 0 10px;
-    color: #0d00ff;
-}
-.item {
-    margin-bottom: 15px;
-}
-.item-title {
-    font-weight: bold;
-}
-.item span {
-    color: #333;
-    font-size: 14px;
-}
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-        width: 95%;
-    }
-    .left, .right {
-        width: 100%;
-    }
-}
-
-      
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV - Trần Ngọc Phương Thùy</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <div class="left">
+        <div class="avatar">
+            <img src="C:\Users\ASUS\Downloads\z7226772549708_bc417ce65c0949eecf8ea036ef964fe9.jpg" alt="avatar">
+        </div>
+        <div class="name">Trần Ngọc Phương Thùy</div>
+        <div class="job"><p>Sinh viên<br> (Năm nhất)<br></p></div>
+        <div class="title">ABOUT ME</div>
+        <p>Tôi là một sinh viên yêu thích việc Design,nghe nhạc và thiết kế trang web. </p>
+        <div class="title">CONTACT</div>
+        <p>Tỉnh Vĩnh Long (Tỉnh Bến Tre cũ) Việt Nam <br>
+           +84 858657305 <br>
+        </p>
+        <div class="title">SKILLS</div>
+        HTML
+        <div class="skill-bar"><div class="fill" style="width: 30%;"></div></div>
+        CSS
+         <div class="skill-bar"><div class="fill" style="width: 20%;"></div></div>
+    </div>
+    <div class="right">
+        <h2>TRẦN NGỌC PHƯƠNG THÙY</h2>
+        <div class="section-title">EDUCATION</div>
+        <div class="item">
+            <div class="item-title">Trường Đại học Sư phạm TP. Hồ Chí Minh</div>
+            <span>Sinh viên năm nhất ngành: Công nghệ thông tin. 
+            (2025-2026)</span>
+        </div>
+        <div class="section-title">EXPERIENCE</div>
+        <div class="item">
+            <div class="item-title">Dự án website cá nhân (2025-2026)</div>
+            <p>Xây dựng trang web CV cá nhân.</p>
+        </div>
+        <div class="section-title">SOFT SKILLS</div>
+        <p>+ Kỹ năng làm việc nhóm <br>
+           + Tự học và sắp xếp thời gian</p>
+</div>
+</body>
+</html>
+   
